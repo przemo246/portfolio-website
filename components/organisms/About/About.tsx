@@ -8,7 +8,7 @@ export const About = () => {
     <Section heading="About" name="about">
       <div className="flex flex-col items-center justify-center">
         <div className="flex">
-          <div className="rounded-full bg-[url('../public/img/profile.jpg')] w-[280px] h-[280px] rounded-full bg-cover bg-[86%] mr-6"></div>
+          <div className="rounded-full bg-[url('/img/profile.jpg')] w-[280px] h-[280px] rounded-full bg-cover bg-[86%] mr-6"></div>
           <div className="max-w-screen-sm">
             <Heading variant="tertiary" className="mb-4 text-left">
               Hey!👋 My name is Przemek
