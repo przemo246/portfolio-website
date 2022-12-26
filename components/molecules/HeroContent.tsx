@@ -39,7 +39,7 @@ export const HeroContent = () => {
         ></animated.div>
       </div>
       <animated.h1
-        className="font-semibold text-6xl text-white"
+        className="font-medium text-6xl text-white"
         style={{ ...springsH1 }}
       >
         Passionate front-end developer
