@@ -69,7 +69,7 @@ export const Form = () => {
   return (
     <form
       onSubmit={onSubmit}
-      className="flex items-start flex-col bg-white shadow-5xl p-8 w-1/2"
+      className="flex items-start flex-col bg-white shadow-5xl p-8 w-1/2 max-lg:w-full"
     >
       <label htmlFor="firstName" className="text-sm uppercase mb-2">
         First Name

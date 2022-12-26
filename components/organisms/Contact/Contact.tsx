@@ -10,11 +10,11 @@ export const Contact = () => {
     <Section
       heading="Get in touch"
       name="contact"
-      className="bg-darkGreen px-4"
+      className="bg-darkGreen"
       classNameHeading="hidden"
     >
-      <div className="flex">
-        <div className="w-1/2">
+      <div className="flex max-lg:flex-col">
+        <div className="w-1/2 max-lg:w-full">
           <div className="flex flex-col items-start mb-14">
             <Heading
               className="text-3xl text-white mb-6 fancy fancy--white"

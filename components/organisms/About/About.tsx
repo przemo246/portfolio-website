@@ -8,8 +8,8 @@ export const About = () => {
     <Section heading="About" name="about">
       <div className="flex flex-col items-center justify-center">
         <div className="flex">
-          <div className="rounded-full bg-[url('/img/profile.jpg')] w-[280px] h-[280px] rounded-full bg-cover bg-[86%] mr-6"></div>
-          <div className="max-w-screen-sm">
+          <div className="rounded-full bg-[url('/img/profile.jpg')] w-[280px] h-[280px] rounded-full bg-cover bg-[86%] mr-6 max-lg:hidden"></div>
+          <div className="max-w-screen-sm max-lg:max-w-full">
             <Heading variant="tertiary" className="mb-4 text-left">
               Hey!👋 My name is Przemek
             </Heading>
@@ -33,11 +33,11 @@ export const About = () => {
           Some of the technologies I have worked with:
         </div>
         <div className="flex justify-center">
-          <ul className="flex flex-wrap">
+          <ul className="flex flex-wrap gap-10 flex-wrap">
             {technologies.map((t) => (
               <li
                 key={t.name}
-                className="flex flex-col items-center mr-10 opacity-70 hover:opacity-100 transition-all"
+                className="flex flex-col items-center opacity-70 hover:opacity-100 transition-all"
               >
                 <div>{t.icon({ color: "#111", size: "2.8rem" })}</div>
                 <div className="mt-2 text-sm">{t.name}</div>

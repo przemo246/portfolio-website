@@ -19,7 +19,7 @@ export const Section = ({
   children,
 }: Props) => {
   return (
-    <Element className={clsx(`py-20 bg-white ${className}`)} name={name}>
+    <Element className={clsx(`py-20 bg-white px-6 ${className}`)} name={name}>
       <div className="max-w-screen-xl my-0 mx-auto">
         <div className="flex items-center justify-center">
           <Heading

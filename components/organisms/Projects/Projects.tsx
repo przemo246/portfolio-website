@@ -16,7 +16,7 @@ export const Projects = () => {
       {isLoading ? (
         <Spinner />
       ) : (
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-10  mx-auto my-0">
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-10  mx-auto my-0 max-sm:grid-cols-1">
           {data &&
             data
               .sort(
