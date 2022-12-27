@@ -7,7 +7,7 @@ import { HeroContent } from "../../molecules/HeroContent";
 export const Hero = () => {
   return (
     <section
-      className="h-screen flex flex-col items-center justify-center bg-[url('/img/bg.jpg')] bg-cover bg-bottom bg-no-repeat relative px-6"
+      className="h-screen flex flex-col items-center justify-center bg-[url('/img/bg.jpg')] bg-cover bg-bottom bg-no-repeat relative px-6 bg-fixed max-lg:bg-local"
       id="top"
     >
       <Header />
