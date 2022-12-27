@@ -42,7 +42,7 @@ export const HeroContent = () => {
         className="font-medium text-6xl text-center text-white max-md:text-5xl"
         style={{ ...springsH1 }}
       >
-        Passionate front-end developer
+        Passionate Front-end Developer
       </animated.h1>
       <div className="flex items-center justify-center mt-8">
         <LinkScroll smooth={true} duration={500} to="projects">

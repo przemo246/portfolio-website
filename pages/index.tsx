@@ -32,10 +32,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Przemysław Welenc - Creative Front-end developer</title>
+        <title>Przemysław Welenc - Passionate Front-end Developer</title>
         <meta
           name="description"
-          content="Portfolio website of a creative and passionate front-end developer with modern stack, such as React, Next.js, Gatsby.js, Tailwind, also Web3 stack such as Hardhat, Solidity, Ethers and useDapp"
+          content="Portfolio website of a passionate front-end developer with modern stack, such as React, Next.js, Gatsby.js, Tailwind, also Web3 stack such as Hardhat, Solidity, Ethers and useDapp"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
