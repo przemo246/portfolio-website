@@ -26,13 +26,12 @@ export default function handler(
       linkToLive: "https://devpost.com/software/debet-kyacl3",
     },
     {
-      name: "NFTPadlock (building in progress)",
+      name: "NFTPadlock",
       builtIn: "2022",
       description:
-        "NFTPadlock is a project that allows to create a relationship with another Ethereum address and each one in a couple receives a fractional padlock NFT. Apart from that, each one in the relationship deposits ETH that is stored in a vault and as long as the relationshp lasts the vault is generating yield. The project is being built in a team and I am responsible for designing the app as well as smart contract integration on the front-end.",
+        "NFTPadlock is a project that allows to create a relationship with another Ethereum address and each one in a couple receives a fractional padlock NFT. Apart from that, each one in the relationship deposits ETH that is stored in a vault and as long as the relationshp lasts the vault is generating yield. The project was built in a team and I was responsible for designing the app as well as smart contract integration on the front-end.",
       img: "/img/projects/nftpadlock.png",
-      linkToGithub:
-        "https://github.com/10clouds/blockchain-team-hackathon-ethonline",
+      linkToGithub: "https://github.com/przemo246/nft-padlock",
       linkToLive: null,
     },
     {
