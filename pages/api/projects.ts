@@ -32,7 +32,7 @@ export default function handler(
         "NFTPadlock is a project that allows to create a relationship with another Ethereum address and each one in a couple receives a fractional padlock NFT. Apart from that, each one in the relationship deposits ETH that is stored in a vault and as long as the relationshp lasts the vault is generating yield. The project was built in a team and I was responsible for designing the app as well as smart contract integration on the front-end.",
       img: "/img/projects/nftpadlock.png",
       linkToGithub: "https://github.com/przemo246/nft-padlock",
-      linkToLive: "https://nftpadlock.on.fleek.co/",
+      linkToLive: "https://nft-padlock.vercel.app/",
     },
     {
       name: "Oniofocus",
