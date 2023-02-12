@@ -21,8 +21,7 @@ export default function handler(
       description:
         "DeBetting is a project which was created for Chainlink Fall 2022 Hackathon and has been qualified to top 40 quality projects. It is a decentralized betting app, which allows you to bet your DAI tokens on a football match. What makes it special is a use of Chainlink External API calls and Yearn protocol as an additional yield source. The project was built in a team and my responsibility was to design the app as well as do the smart contract integration on the front-end.",
       img: "/img/projects/debetting.png",
-      linkToGithub:
-        "https://gitlab.com/silverowiecx/debetting-chainlink-hackaton-fall-2022",
+      linkToGithub: "https://github.com/przemo246/deBetting",
       linkToLive: "https://devpost.com/software/debet-kyacl3",
     },
     {
